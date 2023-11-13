@@ -1,0 +1,13 @@
+<h1>Answer</h1>
+
+<div class="border p-4 mb-3 rounded">
+  <p class="bg-secondary text-white p-2 rounded">"<%= @question %>"</p>
+  <p class="text-right"><em>- You</em></p>
+</div>
+
+<div class="border p-4 mb-3 rounded">
+  <p class="bg-secondary text-white p-2 rounded">"<%= @answer %>"</p>
+  <p class="text-right"><em>- Your Coach</em></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
